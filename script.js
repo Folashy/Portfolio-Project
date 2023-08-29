@@ -1,3 +1,11 @@
+// document.addEventListener("DOMContentLoaded", ()=>{
+
+// })
+
+// window.onload= ()=>{
+
+// }
+
 $(document).ready(function(){
 
     $('#menu').click(function(){
@@ -24,8 +32,8 @@ $('a[href*="#"]').on('click',function(e){
     $('html body').animate({
         scrollTop: $($(this).attr('href')).offset().top,
     },
-     500,
-     'linear'
+     5000,
+     'ease-in'
     )
 })
 });
